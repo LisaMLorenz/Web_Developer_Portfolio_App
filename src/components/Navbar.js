@@ -1,36 +1,27 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { Navbar, Nav } from "react-bootstrap";
+import { useMediaQuery } from '@material-ui/core';
 
+function Navigation() {
+  const isMobile = useMediaQuery('(max-width: 767px)');
 
-function Navbar() {
   return (
-
-    <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
-      <div className="container-fluid">
-        <Link className="navbar-brand" to="/">Lisa Lorenz</Link>
-        <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span className="navbar-toggler-icon"></span>
-        </button>
-        <div className="collapse navbar-collapse" id="navbarNav">
-          <ul className="navbar-nav">
-            <li className="nav-item">
-              <Link className="nav-link" to="/about">About</Link>
-            </li>
-            <li className="nav-item">
-              <Link className="nav-link" to="/projects">Projects</Link>
-            </li>
-            <li className="nav-item">
-              <Link className="nav-link" to="/contact">Contact</Link>
-            </li>
-            <li className="nav-item">
-              <Link className="nav-link" to="/contact">Home</Link>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-
+    <Navbar bg="dark" variant="dark" expand="lg">
+      <Navbar.Brand as={Link} to="/">Lisa Lorenz</Navbar.Brand>
+      {isMobile ? (
+        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+      ) : null}
+      <Navbar.Collapse id="basic-navbar-nav">
+        <Nav className="mr-auto">
+          <Nav.Link as={Link} to="/about">About</Nav.Link>
+          <Nav.Link as={Link} to="/projects">Projects</Nav.Link>
+          <Nav.Link as={Link} to="/contact">Contact</Nav.Link>
+          <Nav.Link as={Link} to="/">Home</Nav.Link>
+        </Nav>
+      </Navbar.Collapse>
+    </Navbar>
   );
 }
 
-export default Navbar;
+export default Navigation;

@@ -1,10 +1,11 @@
+
 [
   {
     "id": 1,
     "title": "Inspirite",
     "deployedLink": "https://dr-jingyuezhao.github.io/Inspirite/",
     "githubLink": "https://github.com/dr-jingyuezhao/Inspirite",
-    "image": "my-app/src/assets/images/inspirite_scsh.png",
+    "image": "./assets/images/inspirite_scsh.png",
     "altText": "screenshot landing page of Inspirite",
     "description": "A creative writing app with a twist."
   },
