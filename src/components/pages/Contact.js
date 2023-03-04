@@ -1,8 +1,8 @@
 import React from 'react';
 
-function Contact (){
-    return(
-        <div>
+function Contact() {
+  return (
+    <div>
       <h1>Contact Me</h1>
       <form>
         <div className="form-group">
@@ -21,7 +21,7 @@ function Contact (){
       </form>
     </div>
 
-    );
+  );
 }
 
 export default Contact;
