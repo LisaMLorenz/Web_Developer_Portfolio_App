@@ -17,5 +17,41 @@
     "image": "my-app/src/assets/images/weekscheduler_scsh.png",
     "altText": "screenshot landing page of Weekly Planner",
     "description": "An app that helps you plan your day."
+  },
+  {
+    "id": 3,
+    "title": "Cage Quiz",
+    "deployedLink": "https://lisamlorenz.github.io/QuizTime/",
+    "githubLink": "https://github.com/LisaMLorenz/QuizTime",
+    "image": "./assets/images/quiz_scsh.png",
+    "altText": "screenshot landing page of the Cage quiz",
+    "description": "Test your Nic Cage knowledge and enter the highscore."
+  },
+  {
+    "id": 4,
+    "title": "Team Generator",
+    "deployedLink": "https://lisamlorenz.github.io/Lisa-s-Team-Profile-Generator/",
+    "githubLink": "https://github.com/LisaMLorenz/Lisa-s-Team-Profile-Generator",
+    "image": "./assets/images/teamprofile_scsh.png",
+    "altText": "screenshot landing page of team generator",
+    "description": "Your team members at one glance."
+  },
+  {
+    "id": 5,
+    "title": "Weather App",
+    "deployedLink": "https://lisamlorenz.github.io/Weather_App/",
+    "githubLink": "https://github.com/LisaMLorenz/Weather_App",
+    "image": "./assets/images/weather_scsh.png",
+    "altText": "screenshot landing page of weather app",
+    "description": "Whatever the weather - customize your own weather board."
+  },
+  {
+    "id": 6,
+    "title": "Horiseon Search Engine",
+    "deployedLink": "https://lisamlorenz.github.io/Challenge1/",
+    "githubLink": "https://github.com/LisaMLorenz/Challenge1",
+    "image": "./assets/images/horiseon_scsh.png",
+    "altText": "screenshot landing page of search engine optimization project",
+    "description": "Increase your web app traffic with better accessibility."
   }
 ]
