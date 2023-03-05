@@ -1,10 +1,18 @@
 import React from 'react';
+import '../../styles/about.css'
 
 function About () {
     return(
-        <div>
+      <div class="container">
+        <div class="aboutMe">
       <h1>About Me</h1>
-      <p>I am a web developer based in [location]. I specialize in [area of expertise].</p>
+      <br></br>
+      <h4>Hello I'm Lisa! &#x1F44B;</h4>
+      <p>I am a web developer based in Manchester. I specialize in Javascript.
+      <br></br>
+
+      </p>
+    </div>
     </div>
     )
 };

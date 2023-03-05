@@ -1,0 +1,22 @@
+#nav-button {
+    width: 100px;
+    border:rgb(247, 242, 235);
+    background-color: aliceblue;
+}
+
+#nav-button :hover {
+    
+}
+
+#mynavstyle {
+    padding: 20px;
+    background-color: rgb(247, 242, 235);
+    font-family: 'Raleway', sans-serif;
+    
+}
+
+a.navbar-brand {
+    padding: 30px;
+    font-size: 20pt;
+    font-weight: 900;
+}
