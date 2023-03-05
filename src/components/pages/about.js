@@ -9,6 +9,7 @@ function About() {
   }
 
   return (
+    
     <div className="aboutMe">
       <h1>About Me</h1>
       <br />
@@ -16,7 +17,7 @@ function About() {
       <p id="text">
         I am a web developer based in Manchester. I specialize in Javascript.
         <br />
-        Contact: hej@frau-lorenz.de or call me at +44.777.01.51.168
+        
       </p>
       <br />
       <h5>Dev Skill Set</h5>
@@ -66,6 +67,7 @@ function About() {
         {expanded ? 'Show Less' : 'Read More'}
       </button>
     </div>
+    
   );
 }
 

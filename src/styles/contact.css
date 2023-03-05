@@ -19,17 +19,46 @@
     font-size: larger;
     border-style: none;
     background-color: rgb(249, 157, 37);
+    transition: background-color 0.7s ease;
 
 }
 
+#contact-btn:hover {
+    background-color: rgb(249, 90, 37);
+}
+
+.contact-form-container a i {
+    color: rgb(249, 157, 37);
+    text-decoration: none;
+    transition: color 0.7s ease;
+  }
+
+  .contact-form-container a i:hover {
+    color: rgb(249, 90, 37);
+  }
+
+  .contact-form-container a {
+    color: rgb(249, 157, 37);
+    text-decoration: none;
+    transition: color 0.7s ease;
+  }
+
+  .contact-form-container a:hover{
+    color: rgb(249, 90, 37);
+
+  }
+
 #close-btn {
-    
     border-radius: 10px;
     font-weight: 700;
     font-size: larger;
     border-style: none;
     background-color: rgb(249, 157, 37);
+    transition: color 0.7s ease;
+}
 
+#close-btn:hover {
+    color: rgb(249, 90, 37);
 }
 
 .modal-text {

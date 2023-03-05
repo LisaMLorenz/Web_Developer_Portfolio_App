@@ -33,8 +33,22 @@ function Contact() {
 
   return (
     <div className="contact-form-container">
-      <h1>Contact Me &#x270D;</h1>
+      <h1>Contact Me &#x270D; &nbsp; &nbsp; &nbsp;
+      <a href="https://github.com/LisaMLorenz" target="_blank">
+  <i className="fab fa-github fa-1x"></i>
+</a>
+&nbsp;
+
+<a href="https://www.linkedin.com/in/lisa-lorenz-ab043086" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+  <i class="fab fa-linkedin fa-1x"></i>
+</a>
+
+</h1>
+     
       &nbsp;
+      
+      <p>Just use this form to get in touch <a href='mailto:hej@frau-lorenz.de'>email me directly</a> or give me a ring at +44.777.01.51.168</p>
+
       <form onSubmit={handleSubmit}>
         <div className="form">
           <label htmlFor="name">Name</label>

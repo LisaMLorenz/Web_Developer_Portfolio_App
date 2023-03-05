@@ -8,30 +8,37 @@
 
 #toggle-btn {
   margin-top: 10px;
+  padding: 12px;
+  border-radius: 15px;
+  border-color: orange;
+  border-style: dashed;
 }
 
 .aboutMe {
-    
-    background-color: #f3f2f2;
-    font-family: 'Raleway';
-    padding: 30px;
-    width: 100vh;
-    border-radius: 10px;
-    margin: 30px;
-    box-shadow: 0 0 10px rgba(249, 173, 245, 0.3);
 
-  }
-  
-  .aboutMe h1 {
-    font-size: 36px;
-    color: #333;
-  }
-  
-  .aboutMe p {
-    font-size: 18px;
-    color: #666;
-  }
+  flex: auto;
+  justify-content: center;
+  align-items: center;
+  background-color: #f3f2f2;
+  font-family: 'Raleway';
+  padding: 30px;
+  width: 80%;
+  border-radius: 10px;
+  margin: 70px;
+  box-shadow: 0 0 10px rgba(249, 173, 245, 0.3);
 
-  ul.dev-icons {
-    list-style: none;
-  }
+}
+
+.aboutMe h1 {
+  font-size: 36px;
+  color: #333;
+}
+
+.aboutMe p {
+  font-size: 18px;
+  color: #666;
+}
+
+ul.dev-icons {
+  list-style: none;
+}
