@@ -1,70 +1,134 @@
-# Getting Started with Create React App
+# React Portfolio Challenge
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)<br>
 
-## Available Scripts
+A project built from scratch with React, Bootstrap, and CSS - that helps you showcase your work in a simple and no-nonesense manner.
 
-In the project directory, you can run:
+## Table of contents
+1. [Getting Started](#toc-gettingstarted)
+2. [Summary](#toc-summary)
+3. [App Description](#toc-appdescription)
+4. [Usage](#toc-usage)
+5. [License](#toc-license)
+6. [Collaborators](#toc-collaborators)
+7. [Contribute](#toc-contribute)
+8. [Tests](#toc-tests)
+8. [FAQ](#toc-faq)
+10. [Contact](#toc-contact)
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Getting Started <a name="toc-gettingstarted"></a>
+This application requires [React](https://www.youtube.com/watch?v=jp1sQZPQ_Rw) use the following commands to get started.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+[Have a look at this tutorial](https://github.com/gitname/react-gh-pages) that shows you how to get started with React. You will need this command to get started:
 
-### `npm test`
+```javascript
+npm start
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+And make sure you have React Bootstrap in your package:
 
-### `npm run build`
+```javascript
+npm install react-bootstrap 
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Once you have these dependencies installed, you can launch the rendered application in your browser instantly.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Summary Description <a name="toc-summary"></a>
+This project includes all the information needed to kick-start your carreer in web engineering. Its clear structure and simplicity gives a good overview of your work and it's dynamically generated structure lets you add new content easily. 
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+## User Story
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### As an candidate who is looking for a job in web development:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- I want to present a polished portfolio
+- So that I can be seen and showcase my work to fellow developers and potential employers.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+# App description <a name="toc-appdescription"></a>
 
-## Learn More
+This program can be used via the VS Code Terminal to create a portfolio for your projects. It uses React to dynamically create an application, such as the project landing page, contact form, project history, and short bio.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Who is the target audience?
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+This application might be of use to all who are new to coding who need a basic scaffold to showcase their work. Feel free to adapt styling to your taste.
 
-### Code Splitting
+## What is the problem that it addresses?
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+As a developer I want to showcase my projects and update them regularly.
 
-### Analyzing the Bundle Size
+## How does the product solve that problem?
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+The application offers a clean layout that can easily expanded and changed by adding projects to a JSON file that's linked to a project page.
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
+# Usage <a name="toc-usage"></a>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Use the following command in your VS Code terminal to get started with receiving the prompts:
 
-### Deployment
+```javascript
+npm start
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Check out my [GitHub Repo](https://github.com/LisaMLorenz/reactportfoliolisa) to see the required code in more detail.
 
-### `npm run build` fails to minify
+Here are a few more screenshots to illustrate the rendered application. 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+![screenshot of this landing page](./src/images/landing.png)
+
+Contact Form:
+
+![screenshot of the contact form](./src/images/contact.png)
+
+Project Page:
+
+![screenshot of the project page](./src/images/projects.png)
+
+
+
+About Page:
+
+![screenshot of the about page](./src/images/aboutme.png)
+
+
+## License <a name="toc-license"></a>
+
+This project is licensed under the MIT license.
+
+## Collaborators <a name="toc-collaborate"></a>
+
+For now it's just - [Lisa Lorenz](https://github.com/LisaMLorenz). We are looking forward to welcome contributors though. I had some help with debugging from Lissa Simpson.
+
+## How to Contribute <a name="toc-contribute"></a>
+If you would like to contribute to this project, please follow these steps:
+
+1. Fork the repository.
+2. Create a new branch.
+3. Make your changes and commit them.
+4. Push your changes to your fork.
+5. Submit a pull request.
+
+## Tests <a name="toc-tests"></a>
+
+This application was thoroughly tested to ensure that it performs as expected and without any bugs. The testing was conducted using the VS Code Terminal with React.
+
+To test the application, we ran multiple scenarios in which we input different values in response to the prompts generated by the application. We also tested the application with different combinations of inputs to verify that it handles all cases correctly.
+
+During testing, we didn't encounter any issues or errors. The application performed smoothly, generating a high-quality README file with all the required sections and information.
+
+If you encounter any issues or bugs while using the application, please don't hesitate to report them by opening an issue in the GitHub repository. We'll do our best to address them promptly.
+
+## FAQ <a name="toc-faq"></a>
+
+1. What if I don't want to add my own projects?
+- You can simply add your own details via the projects.json file.
+2. What if I want to change links to other websites like Instagram?
+- The application uses the fontawesome library that provides icons and logos for all the apps you need!
+3. Can I customize styling?
+- Of course, there are style forms for each page.
+
+## Any more questions? <a name="toc-contact"></a>
+
+Please get in touch via [GitHub](https://github.com/LisaMLorenz) or contact me directly via hej@frau-lorenz.de.
