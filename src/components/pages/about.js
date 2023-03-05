@@ -1,9 +1,13 @@
-import React from 'react';
+import React, { useState } from 'react';
 import '../../styles/about.css'
 
 function About() {
-  return (
+  const [expanded, setExpanded ] = useState(false);
 
+  const handleToggle = () => {
+    setExpanded(prevExpanded => !prevExpanded);
+  }
+  return (
     <div class="aboutMe">
       <h1>About Me</h1>
       <br></br>
@@ -40,7 +44,9 @@ function About() {
         illustration and photography related to the topic. I also run independent RISO publishing house Team Trident Press, am co-founder of cultural newsletter MURMUR and mini-festival As We Are Away. Currently I am also working as Technical Assistant at Manchester School of Art's book binding workshop.
         <br></br>
       </p>
-      <button id="toggle-btn">Read More</button>
+      <button id="toggle-btn" onClick={handleToggle}>
+        {expanded ? 'Show Less' : 'Read More'}
+        </button>
     </div>
 
   )
@@ -51,16 +57,5 @@ const toggleBtn = document.getElementById("toggle-btn");
 
 let expanded = false;
 
-toggleBtn.addEventListener("click", () => {
-  if (!expanded) {
-    text.style.maxHeight = "none";
-    toggleBtn.innerText = "Show Less";
-    expanded = true;
-  } else {
-    text.style.maxHeight = "100px";
-    toggleBtn.innerText = "Add More";
-    expanded = false;
-  }
-});
 
 export default About;
