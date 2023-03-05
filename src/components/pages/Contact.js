@@ -35,12 +35,17 @@ function Contact() {
     <div className="contact-form-container">
       <h1>Contact Me &#x270D; &nbsp; &nbsp; &nbsp;
       <a href="https://github.com/LisaMLorenz" target="_blank">
-  <i className="fab fa-github fa-1x"></i>
+  <i className="fab fa-github fa-1x" title="Visit my GitHub profile"></i>
 </a>
 &nbsp;
-
+&nbsp;
 <a href="https://www.linkedin.com/in/lisa-lorenz-ab043086" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
-  <i class="fab fa-linkedin fa-1x"></i>
+  <i class="fab fa-linkedin fa-1x"title="Visit my LinkedIn profile"></i>
+</a>
+&nbsp;
+&nbsp;
+<a href="https://drive.google.com/uc?export=download&id=1ska45iBZ0eI55AR9ymyKgvwQjsy1EkDU" download>
+  <i class="fas fa-file-pdf" title="Download my CV"></i> <span class="sr-only">Download CV</span>
 </a>
 
 </h1>
