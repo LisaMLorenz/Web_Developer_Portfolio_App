@@ -7,7 +7,7 @@
     "githubLink": "https://github.com/dr-jingyuezhao/Inspirite",
     "image": "./assets/images/inspirite_scsh.png",
     "altText": "screenshot landing page of Inspirite",
-    "description": "A creative writing app with a twist."
+    "description": "A creative writing app with a twist. This was a group project realized with Maciek, Jingyue and Sophie."
   },
   {
     "id": 2,
@@ -28,30 +28,30 @@
     "description": "Test your Nic Cage knowledge and enter the highscore."
   },
   {
-    "id": 4,
+    "id": 6,
     "title": "Team Generator",
+    "image": "./assets/images/teamprofile_scsh.png",
     "deployedLink": "https://lisamlorenz.github.io/Lisa-s-Team-Profile-Generator/",
     "githubLink": "https://github.com/LisaMLorenz/Lisa-s-Team-Profile-Generator",
-    "image": "./assets/images/teamprofile_scsh.png",
     "altText": "screenshot landing page of team generator",
     "description": "Your team members at one glance."
   },
   {
     "id": 5,
-    "title": "Weather App",
-    "deployedLink": "https://lisamlorenz.github.io/Weather_App/",
-    "githubLink": "https://github.com/LisaMLorenz/Weather_App",
-    "image": "./assets/images/weather_scsh.png",
-    "altText": "screenshot landing page of weather app",
-    "description": "Whatever the weather - customize your own weather board."
-  },
-  {
-    "id": 6,
     "title": "Horiseon Search Engine",
     "deployedLink": "https://lisamlorenz.github.io/Challenge1/",
     "githubLink": "https://github.com/LisaMLorenz/Challenge1",
-    "image": "./assets/images/horiseon_scsh.png",
-    "altText": "screenshot landing page of search engine optimization project",
+    "image": "./assets/images/weather_scsh.png",
+    "altText": "screenshot landing page of seo app",
     "description": "Increase your web app traffic with better accessibility."
+  },
+  {
+    "id": 4,
+    "title": "Weather App",
+    "deployedLink": "https://lisamlorenz.github.io/Weather_App/",
+    "githubLink": "https://github.com/LisaMLorenz/Weather_App",
+    "image": "./assets/images/teamprofile_scsh.png",
+    "altText": "screenshot landing page of weather app",
+    "description": "Whatever the weather - customize your own weather board."
   }
 ]

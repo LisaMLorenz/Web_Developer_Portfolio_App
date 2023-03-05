@@ -2,4 +2,37 @@
 
 #project-card {
     font-family: 'Raleway';
+    border-radius: 15px;
+    margin: 20px;
+    flex: auto;
+    border-style: none;
+    
+    
+}
+
+
+#app-button {
+    margin-top: 10px;
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: medium;
+    border-style: none;
+    background-color: rgb(249, 157, 37);
+}
+
+#git-button {
+    margin-top: 10px;
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: medium;
+    border-style: none;
+    color: darkslategray;
+    background-color: rgb(175, 225, 195);
+}
+
+#project-card img {
+    border-radius: 15px;
+    width:90%;
+    align-self: center;
+    margin: 10px;
 }

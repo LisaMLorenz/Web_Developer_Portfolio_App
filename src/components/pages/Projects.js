@@ -40,18 +40,19 @@ function Projects() {
     }
 
     projectCards.push(
-      <div className="col-md-4" id='project-card' key={project.id}>
-        <div className="card mb-4 shadow-sm">
+      
+      <div className="col-md-4" key={project.id}>
+        <div className="card mb-4 shadow-sm" id='project-card'>
           <img className="card-img-top" src={image} alt={project.altText} />
           <div className="card-body">
             <h3 className="card-title">{project.title}</h3>
             <p className="card-text">{project.description}</p>
             <div className="d-flex justify-content-center align-items-center">
-              <a href={project.deployedLink} className="btn btn-sm btn-primary">
+              <a href={project.deployedLink} className="btn btn-sm btn-primary" id='app-button'>
                 View the App
               </a>
               &nbsp;
-              <a href={project.githubLink} className="btn btn-sm btn-primary">
+              <a href={project.githubLink} className="btn btn-sm btn-primary" id='git-button'>
                 Go to GitHub
               </a>
             </div>
