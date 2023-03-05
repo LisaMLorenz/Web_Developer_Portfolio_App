@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/lisas-react-portfolio/static/css/main.716c036a.css",
+    "main.js": "/lisas-react-portfolio/static/js/main.a1ddca78.js",
+    "static/media/horiseon_scsh.png": "/lisas-react-portfolio/static/media/horiseon_scsh.e142c69d9b6da6177060.png",
+    "static/media/inspirite_scsh.png": "/lisas-react-portfolio/static/media/inspirite_scsh.ec31675baf6c06b1ad43.png",
+    "static/media/quiz_scsh.png": "/lisas-react-portfolio/static/media/quiz_scsh.6701d66279597ce91910.png",
+    "static/media/weather_scsh.png": "/lisas-react-portfolio/static/media/weather_scsh.8d56ecc5d9322da8e253.png",
+    "static/media/teamprofile_scsh.png": "/lisas-react-portfolio/static/media/teamprofile_scsh.c138b5a11e9b5ab1fc5f.png",
+    "static/media/weekscheduler_scsh.png": "/lisas-react-portfolio/static/media/weekscheduler_scsh.9901e2186b768da3ef6c.png",
+    "index.html": "/lisas-react-portfolio/index.html",
+    "main.716c036a.css.map": "/lisas-react-portfolio/static/css/main.716c036a.css.map",
+    "main.a1ddca78.js.map": "/lisas-react-portfolio/static/js/main.a1ddca78.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.716c036a.css",
+    "static/js/main.a1ddca78.js"
+  ]
+}
