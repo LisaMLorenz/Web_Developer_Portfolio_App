@@ -6,6 +6,8 @@ import project3Image from '../../images/quiz_scsh.png';
 import project4Image from '../../images/weather_scsh.png';
 import project5Image from '../../images/horiseon_scsh.png';
 import project6Image from '../../images/teamprofile_scsh.png';
+import '../../styles/projects.css'
+
 
 function Projects() {
   const projectCards = [];
@@ -38,7 +40,7 @@ function Projects() {
     }
 
     projectCards.push(
-      <div className="col-md-4" key={project.id}>
+      <div className="col-md-4" id='project-card' key={project.id}>
         <div className="card mb-4 shadow-sm">
           <img className="card-img-top" src={image} alt={project.altText} />
           <div className="card-body">
