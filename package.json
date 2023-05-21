@@ -1,7 +1,7 @@
 {
   "name": "react-application",
   "version": "0.1.0",
-  "homepage": "https://lisamlorenz.github.io/reactportfoliolisa/",
+  "homepage": "https://lisamlorenz.github.io/Web_Developer_Portfolio_App/",
   "private": true,
   "dependencies": {
     "@material-ui/core": "^4.12.4",
